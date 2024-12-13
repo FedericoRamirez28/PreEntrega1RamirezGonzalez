@@ -1,0 +1,48 @@
+
+/* NavBar.css */
+.barraNavegador {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(213, 119, 119);
+  margin-top: 2px;
+  padding: 20px;
+  border: none;
+  border-bottom: 10px solid red;
+}
+
+.ulNav {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  color: white;
+}
+
+.ulNav li {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-evenly;
+}
+
+/* CartWidget.css */
+.ulNav {
+  display: flex;
+  align-items: center;
+}
+
+.carrito {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.numeroCart {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  color: white;
+}
+
